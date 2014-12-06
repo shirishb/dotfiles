@@ -1,0 +1,7 @@
+# All hidden files unless explicitly added
+.*
+
+# Ctag files
+*.ctags
+
+
