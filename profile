@@ -2,11 +2,14 @@
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-# Paths
+# Paths (pre)
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/usr/local/mysql/bin:$PATH
+
+# Paths (post)
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
 export PATH=$PATH:/Users/shirish/Workspace/github/scripts
+export PATH=$PATH:/Users/shirish/Workspace/tools
 
 # Shortcuts
 alias blag="cd ~/Workspace/github/blag"
@@ -20,7 +23,7 @@ csdb() {
     rm -f cscope.files
 }
 
-# Update globals vim tags
+# Update global vim tags
 updatetags() {
     ctags -R -f ~/.vim/tags/python27.ctags /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
 }
