@@ -40,8 +40,12 @@ set list
 set colorcolumn=80
 
 " remove trailing spaces
+autocmd BufWritePre *.py :%s/\s\+$//e
 autocmd BufWritePre *.c :%s/\s\+$//e
+autocmd BufWritePre *.cpp :%s/\s\+$//e
 autocmd BufWritePre *.h :%s/\s\+$//e
+autocmd BufWritePre *.hpp :%s/\s\+$//e
+
 
 "--- Taglist plugin changes
 filetype on

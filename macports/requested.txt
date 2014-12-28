@@ -7,12 +7,15 @@ cmake                          @3.0.2_1
 coreutils                      @8.23_1 
 cscope                         @15.8a_0 
 ctags                          @5.8_1 
+dbus                           @1.8.12_0 
 gcc_select                     @0.1_8 
 git                            @2.2.1_0+credential_osxkeychain+doc+pcre+perl5_16+python27 
 gmake                          @4.1_0 
 libxml                         @1.8.17_0 
 MacVim                         @7.4.snapshot73_0+cscope+huge+python27 
 python34                       @3.4.2_1 
+qt4-mac                        @4.8.6_0 
 tree                           @1.7.0_0 
 vim                            @7.4.258_0+huge 
 wget                           @1.16.1_0+ssl 
+wireshark                      @1.12.2_0+geoip+gnutls+ipv6+libgcrypt+libsmi+lua+rtp+ssl+x11 
