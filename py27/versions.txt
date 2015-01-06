@@ -1,0 +1,2 @@
+Python 2.7.6
+pip 6.0.6 from /Library/Python/2.7/site-packages/pip-6.0.6-py2.7.egg (python 2.7)
