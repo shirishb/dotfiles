@@ -1,0 +1,7 @@
+alembic==0.7.3
+Beaker==1.6.4
+Mako==1.0.0
+MarkupSafe==0.23
+mutagen==1.25.1
+pylast==1.0.0
+SQLAlchemy==0.9.8

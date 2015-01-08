@@ -17,6 +17,8 @@ libmacho-headers               @862_2
 libxml                         @1.8.17_0 
 MacVim                         @7.4.snapshot73_0+cscope+huge+python27 
 py27-setuptools                @11.3_0 
+py34-alembic                   @0.7.3_0 
+py34-pip                       @6.0.6_0 
 py34-sqlalchemy                @0.9.8_0 
 python34                       @3.4.2_1 
 qt4-mac                        @4.8.6_0 
