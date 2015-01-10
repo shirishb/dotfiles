@@ -1,3 +1,5 @@
+export EDITOR=mvim
+
 # Let the shell have colour!
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
@@ -14,7 +16,8 @@ export PATH=$PATH:/Users/shirish/Workspace/tools
 # Shortcuts
 alias blag="cd ~/Workspace/github/blag"
 alias fix="astyle --style=kr --indent=spaces=4 --indent-switches"
-alias gvim=mvim
+alias gvim="mvim -O"
+
 
 # Create cscope database in current working directory
 csdb() {
@@ -28,3 +31,8 @@ updatetags() {
     ctags -R -f ~/.vim/tags/python27.ctags /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
 }
 
+# Autogenerate <message>
+ambgen() {
+    PYTHONPATH=`pwd`
+    alembic revision --autogenerate -m $*
+}
