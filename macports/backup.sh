@@ -1,7 +1,7 @@
 #! /bin/sh -x
 
 # Update ports and remove inactive versions
-if [ ! -z $(port list inactive) ]; then
+if [ ! -z "$(port list inactive)" ]; then
     sudo port uninstall inactive
 fi
 
