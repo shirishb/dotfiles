@@ -1,6 +1,6 @@
-alembic==0.7.3
+alembic==0.7.4
 Beaker==1.6.4
-Mako==1.0.0
+Mako==1.0.1
 MarkupSafe==0.23
 mutagen==1.25.1
 pylast==1.0.0

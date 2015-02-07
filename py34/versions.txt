@@ -1,2 +1,2 @@
 Python 3.4.2
-pip 6.0.6 from /opt/local/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages (python 3.4)
+pip 6.0.8 from /opt/local/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages (python 3.4)

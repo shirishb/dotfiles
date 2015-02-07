@@ -36,3 +36,7 @@ ambgen() {
     PYTHONPATH=`pwd`
     alembic revision --autogenerate -m $*
 }
+
+gtest() {
+    export GTEST_ROOT=/Users/shirish/Workspace/gtest-svn
+}

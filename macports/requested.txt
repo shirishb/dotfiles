@@ -10,7 +10,7 @@ ctags                          @5.8_1
 dbus                           @1.8.12_0 
 freetype                       @2.5.5_0 
 gcc_select                     @0.1_8 
-git                            @2.2.2_0+credential_osxkeychain+doc+pcre+perl5_16+python27 
+git                            @2.3.0_0+credential_osxkeychain+doc+pcre+perl5_16+python27 
 gmake                          @4.1_0 
 guile                          @2.0.11_1 
 libmacho-headers               @862_2 
@@ -18,7 +18,7 @@ libxml                         @1.8.17_0
 MacVim                         @7.4.snapshot73_1+cscope+huge+python27 
 py27-setuptools                @12.0.3_0 
 py34-alembic                   @0.7.4_0 
-py34-pip                       @6.0.6_0 
+py34-pip                       @6.0.8_0 
 py34-sqlalchemy                @0.9.8_0 
 python34                       @3.4.2_1 
 qt4-mac                        @4.8.6_0 
@@ -26,5 +26,4 @@ srecord                        @1.63_3
 tree                           @1.7.0_0 
 vim                            @7.4.258_1+huge 
 wget                           @1.16.1_0+ssl 
-wireshark                      @1.12.3_0+geoip+gnutls+ipv6+libgcrypt+libsmi+lua+rtp+ssl+x11 
 xorg-libxcb                    @1.11_1+python27 
