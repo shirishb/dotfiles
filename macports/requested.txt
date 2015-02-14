@@ -16,7 +16,7 @@ guile                          @2.0.11_1
 libmacho-headers               @862_2 
 libxml                         @1.8.17_0 
 MacVim                         @7.4.snapshot73_1+cscope+huge+python27 
-py27-setuptools                @12.0.3_0 
+py27-setuptools                @12.1_0 
 py34-alembic                   @0.7.4_0 
 py34-pip                       @6.0.8_0 
 py34-sqlalchemy                @0.9.8_0 
