@@ -10,9 +10,12 @@ ctags                          @5.8_1
 dbus                           @1.8.12_0 
 freetype                       @2.5.5_0 
 gcc_select                     @0.1_8 
+gdb-apple                      @1824_0 
 git                            @2.3.0_0+credential_osxkeychain+doc+pcre+perl5_16+python27 
 gmake                          @4.1_0 
 guile                          @2.0.11_1 
+hexedit                        @1.2.12_0 
+iperf                          @2.0.5_0 
 libmacho-headers               @862_2 
 libxml                         @1.8.17_0 
 MacVim                         @7.4.snapshot73_1+cscope+huge+python27 

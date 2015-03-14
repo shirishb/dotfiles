@@ -17,6 +17,7 @@ export PATH=$PATH:/Users/shirish/Workspace/tools
 alias blag="cd ~/Workspace/github/blag"
 alias fix="astyle --style=kr --indent=spaces=4 --indent-switches"
 alias gvim="mvim -O"
+alias gdb="gdb-apple"
 
 
 # Create cscope database in current working directory
@@ -39,4 +40,8 @@ ambgen() {
 
 gtest() {
     export GTEST_ROOT=/Users/shirish/Workspace/gtest-svn
+}
+
+enable_coredumps() {
+    ulimit -c unlimited
 }
