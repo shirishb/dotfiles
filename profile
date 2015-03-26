@@ -1,3 +1,11 @@
+BLUE="\[\033[1;34m\]"
+GREEN="\[\033[1;32m\]"
+YELLOW="\[\033[1;33m\]"
+RED="\[\033[1;31m\]"
+NO_COLOUR="\[\033[0m\]"
+
+export PS1="$NO_COLOUR[ $RED$(ipconfig getifaddr en0)$NO_COLOUR ] $GREEN\W$NO_COLOUR $ "
+
 export EDITOR=mvim
 
 # Let the shell have colour!
