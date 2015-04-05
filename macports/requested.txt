@@ -3,7 +3,7 @@ astyle                         @2.04_0
 autogen                        @5.18.4_0 
 binutils                       @2.24_0 
 cctools                        @862_1+llvm35 
-cmake                          @3.0.2_1 
+cmake                          @3.2.1_0 
 coreutils                      @8.23_1 
 cscope                         @15.8a_0 
 ctags                          @5.8_1 
@@ -11,7 +11,7 @@ dbus                           @1.8.12_0
 freetype                       @2.5.5_0 
 gcc_select                     @0.1_8 
 gdb-apple                      @1824_0 
-git                            @2.3.0_0+credential_osxkeychain+doc+pcre+perl5_16+python27 
+git                            @2.3.3_0+credential_osxkeychain+doc+pcre+perl5_16+python27 
 gmake                          @4.1_0 
 guile                          @2.0.11_1 
 hexedit                        @1.2.12_0 
@@ -19,14 +19,15 @@ iperf                          @2.0.5_0
 libmacho-headers               @862_2 
 libxml                         @1.8.17_0 
 MacVim                         @7.4.snapshot73_1+cscope+huge+python27 
-py27-setuptools                @12.1_0 
+py27-setuptools                @14.3.1_0 
 py34-alembic                   @0.7.4_0 
 py34-pip                       @6.0.8_0 
-py34-sqlalchemy                @0.9.8_0 
-python34                       @3.4.2_1 
+py34-sqlalchemy                @0.9.9_0 
+python34                       @3.4.3_2 
+qemu                           @2.2.0_0+cocoa+target_i386+target_x86_64+usb 
 qt4-mac                        @4.8.6_0 
 srecord                        @1.63_3 
 tree                           @1.7.0_0 
 vim                            @7.4.258_1+huge 
-wget                           @1.16.1_0+ssl 
+wget                           @1.16.3_0+ssl 
 xorg-libxcb                    @1.11_1+python27 
